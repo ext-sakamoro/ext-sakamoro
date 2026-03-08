@@ -2,19 +2,19 @@
 
 I'm Moroya Sakamoto — systems engineer based in Japan, building **Project A.L.I.C.E.**
 
-ALICE is a modular ecosystem of **137 Rust crates** that encode computational laws — physics, geometry, cryptography, finance, AI/ML, robotics — into deterministic, hardware-native binaries. Instead of shipping raw data across networks, ALICE ships the rules that regenerate it.
+ALICE is a modular ecosystem of **151 Rust crates** that encode computational laws — physics, geometry, cryptography, finance, AI/ML, robotics — into deterministic, hardware-native binaries. Instead of shipping raw data across networks, ALICE ships the rules that regenerate it.
 
 ### [alicelaw.net](https://alicelaw.net/) | [SDF Metaverse](https://alicelaw.net/sdf-metaverse)
 
 ### Quality
 
-All 137 crates pass **ALICE-KARIKARI 100/100** quality standard:
+All 151 crates pass **ALICE-KARIKARI 100/100** quality standard:
 
 | Metric | Result |
 |--------|--------|
-| Crates | **137 / 137** Tier A |
+| Crates | **151 / 151** Tier A |
 | clippy (pedantic + nursery) | **0 warnings** across all crates |
-| Tests | **20,308+** (unit + doc-tests) |
+| Tests | **21,840+** (unit + doc-tests) |
 | `cargo fmt` | **clean** across all crates |
 | Top crate | ALICE-SDF — **1,077 tests** |
 
@@ -36,7 +36,10 @@ All 137 crates pass **ALICE-KARIKARI 100/100** quality standard:
 | **Domain** | Billing, Legal, Legal-AI, Digital-Twin, Graph, Geo, Document, i18n, Compliance, FinCompliance, DataShield, Browser-Secure | Invoice engine, contract analysis, regulatory compliance |
 | **Low-Level** | Image, WASM, FFI, SIMD, Metrics, Observability, Experiment, Test, Token | SIMD 8-wide, WASM VM, FFI, A/B testing |
 | **Commercial** | Edge-Commercial, Streaming-Protocol-Commercial, Voice-Commercial | Enterprise-grade edge, streaming, voice |
-| **Media** | Voice, Synth, Manga | Parametric voice codec, procedural audio, SDF manga |
+| **Media** | Voice, Synth, Manga, ASR, TTS, OCR | Parametric voice codec, speech recognition, text-to-speech, OCR |
+| **Spatial** | SLAM, Medical, Drone, Render | SLAM mapping, medical imaging, UAV control, ray tracing |
+| **Optimization** | Recommend, Logistics, Matchmaking, Agri | Recommendation, supply chain, ELO/Glicko-2, crop modeling |
+| **Real-time** | Chat, LoadBalancer, VideoAnalytics | Chat protocol, L4/L7 load balancing, video tracking |
 
 All crates are connected through [ALICE-Eco-System](https://github.com/ext-sakamoro/ALICE-Eco-System) — 734 bridges across 22 pipeline paths.
 

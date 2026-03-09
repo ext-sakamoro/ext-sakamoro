@@ -2,17 +2,17 @@
 
 I'm Moroya Sakamoto — systems engineer based in Japan, building **Project A.L.I.C.E.**
 
-ALICE is a modular ecosystem of **184 Rust crates** that encode computational laws — physics, geometry, cryptography, finance, AI/ML, robotics — into deterministic, hardware-native binaries. Instead of shipping raw data across networks, ALICE ships the rules that regenerate it.
+ALICE is a modular ecosystem of **185 Rust crates** that encode computational laws — physics, geometry, cryptography, finance, AI/ML, robotics — into deterministic, hardware-native binaries. Instead of shipping raw data across networks, ALICE ships the rules that regenerate it.
 
 ### [alicelaw.net](https://alicelaw.net/) | [SDF Metaverse](https://alicelaw.net/sdf-metaverse)
 
 ### Quality
 
-All 184 crates pass **ALICE-KARIKARI 100/100** quality standard:
+All 185 crates pass **ALICE-KARIKARI 100/100** quality standard:
 
 | Metric | Result |
 |--------|--------|
-| Crates | **184 / 184** Tier A |
+| Crates | **185 / 185** Tier A |
 | clippy (pedantic + nursery) | **0 warnings** across all crates |
 | Tests | **25,485+** (unit + doc-tests) |
 | `cargo fmt` | **clean** across all crates |
@@ -29,7 +29,7 @@ All 184 crates pass **ALICE-KARIKARI 100/100** quality standard:
 | **Data & Storage** | DB, Cache, Search, Text, Codec, Zip, History, VectorDB, Text-Compression, ETL, StreamProc, Lakehouse, CDC, FileSystem, ObjectStore | Lock-free caching, change data capture, columnar lakehouse, object storage |
 | **Security & Finance** | Crypto, Auth, AuthZ, PKI, SIEM, SecretVault, Ledger, Risk, FIX, Settlement, Quant, MarketData, WAF, DLP, Audit | Policy-based authz, certificate lifecycle, stochastic pricing, WAF rules |
 | **Science** | Bio, Neural, Quantum, Genome, Astro, Energy, Chemistry, Optics, Signal | Quantum circuits, genome FM-Index, celestial mechanics, molecular dynamics |
-| **Infrastructure** | Container, Queue, RTOS, VCS, Sync, Presence, Scheduler, Log, Config, Migrate, Backup, Circuit, Consensus, Hypervisor, Storage, OTA, Sensor, Terraform, Monitor | Hypervisor, OTA firmware, sensor fusion, IaC provisioning |
+| **Infrastructure** | Container, Queue, RTOS, VCS, Sync, Presence, Scheduler, Log, Config, Migrate, Backup, Circuit, Consensus, Hypervisor, Storage, OTA, Sensor, IoT, Terraform, Monitor | Hypervisor, OTA firmware, sensor fusion, IoT device control, IaC provisioning |
 | **DevTools** | CI, Debug, Sandbox, Lint, PackageRegistry | Build DAG optimization, AST pattern matching, capability sandbox |
 | **XR/Application** | Browser, Form, Email, Payment, AR, VR, Haptic, Subtitle, GameEngine, Map, Identity, Blockchain, Accessibility | ECS game loop, AR/VR spatial composition, haptic feedback |
 | **Communication** | Serial, RateLimit, Realtime, Collab, Workflow, Notify, TimeSeries, BLE, LoRa, NFC | UART/SPI/I²C, CRDT collaboration, time-series DB, BLE/LoRa/NFC |
@@ -43,7 +43,7 @@ All 184 crates pass **ALICE-KARIKARI 100/100** quality standard:
 | **Compiler/Language** | Compiler, VM, Parser | DSL compiler, bytecode VM, parser combinators |
 | **Business** | CRM, ERP, HRM, LMS | Customer management, inventory/MRP, payroll, learning |
 
-All crates are connected through [ALICE-Eco-System](https://github.com/ext-sakamoro/ALICE-Eco-System) — 734 bridges across 22 pipeline paths.
+All crates are connected through [ALICE-Eco-System](https://github.com/ext-sakamoro/ALICE-Eco-System) — 1,195 bridges across 22 pipeline paths.
 
 ### Design Philosophy
 

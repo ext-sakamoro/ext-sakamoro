@@ -43,7 +43,7 @@ All 185 crates pass **ALICE-KARIKARI 100/100** quality standard:
 | **Compiler/Language** | Compiler, VM, Parser | DSL compiler, bytecode VM, parser combinators |
 | **Business** | CRM, ERP, HRM, LMS | Customer management, inventory/MRP, payroll, learning |
 
-All crates are connected through [ALICE-Eco-System](https://github.com/ext-sakamoro/ALICE-Eco-System) — 1,195 bridges across 22 pipeline paths.
+All crates are connected through [ALICE-Eco-System](https://github.com/ext-sakamoro/ALICE-Eco-System) — 1,205 bridges across 22 pipeline paths.
 
 ### Design Philosophy
 

@@ -24,7 +24,7 @@ All 185 crates pass **ALICE-KARIKARI 100/100** quality standard:
 |--------|--------|-----------------|
 | **Geometry & Rendering** | SDF, View, Animation, Font, Print, PointCloud | Signed distance fields, CSG compiler, mesh generation |
 | **Physics & Simulation** | Physics, Kinematics, Motion, Climate, Space, Atoms, Fluid, Robotics, Swarm | Fixed-point deterministic physics, Navier-Stokes, planetary SDF, swarm intelligence |
-| **AI/ML** | ML, NLP, Vision, Embedding, RL, Diffusion, RAG, Train, TRT, LLM, GAN, AutoML | Ternary inference, diffusion models, retrieval-augmented generation, LLM serving |
+| **AI/ML** | ML, NLP, Vision, Embedding, RL, Diffusion, RAG, Train, TRT, LLM, GAN, AutoML | Ternary inference, diffusion models, RAG, LLM engine (GGUF Q4_K/Q6_K, dual-model speculative decoding, 35 ecosystem bridges) |
 | **Networking & Streaming** | Streaming-Protocol, Edge, CDN, DNS, API, Cloud-Gateway, VNet, MQTT, ServiceMesh, Proxy, WebSocket, gRPC, HTTP | Zero-copy frame transport, SDN overlay, service mesh, reverse proxy |
 | **Data & Storage** | DB, Cache, Search, Text, Codec, Zip, History, VectorDB, Text-Compression, ETL, StreamProc, Lakehouse, CDC, FileSystem, ObjectStore | Lock-free caching, change data capture, columnar lakehouse, object storage |
 | **Security & Finance** | Crypto, Auth, AuthZ, PKI, SIEM, SecretVault, Ledger, Risk, FIX, Settlement, Quant, MarketData, WAF, DLP, Audit | Policy-based authz, certificate lifecycle, stochastic pricing, WAF rules |
@@ -43,7 +43,7 @@ All 185 crates pass **ALICE-KARIKARI 100/100** quality standard:
 | **Compiler/Language** | Compiler, VM, Parser | DSL compiler, bytecode VM, parser combinators |
 | **Business** | CRM, ERP, HRM, LMS | Customer management, inventory/MRP, payroll, learning |
 
-All crates are connected through [ALICE-Eco-System](https://github.com/ext-sakamoro/ALICE-Eco-System) — 1,205 bridges across 22 pipeline paths.
+All crates are connected through [ALICE-Eco-System](https://github.com/ext-sakamoro/ALICE-Eco-System) — 1,235 bridges across 22 pipeline paths.
 
 ### Design Philosophy
 

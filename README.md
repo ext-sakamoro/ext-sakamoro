@@ -14,7 +14,7 @@ All 185 crates pass **ALICE-KARIKARI 100/100** quality standard:
 |--------|--------|
 | Crates | **185 / 185** Tier A |
 | clippy (pedantic + nursery) | **0 warnings** across all crates |
-| Tests | **25,485+** (unit + doc-tests) |
+| Tests | **25,963+** (unit + doc-tests) |
 | `cargo fmt` | **clean** across all crates |
 | Top crate | ALICE-SDF — **1,077 tests** |
 
@@ -24,7 +24,7 @@ All 185 crates pass **ALICE-KARIKARI 100/100** quality standard:
 |--------|--------|-----------------|
 | **Geometry & Rendering** | SDF, View, Animation, Font, Print, PointCloud | Signed distance fields, CSG compiler, mesh generation |
 | **Physics & Simulation** | Physics, Kinematics, Motion, Climate, Space, Atoms, Fluid, Robotics, Swarm | Fixed-point deterministic physics, Navier-Stokes, planetary SDF, swarm intelligence |
-| **AI/ML** | ML, NLP, Vision, Embedding, RL, Diffusion, RAG, Train, TRT, LLM, GAN, AutoML | Ternary inference, diffusion models, RAG, LLM engine (GGUF Q4_K/Q6_K, wgpu GPU inference, dual-model speculative decoding, 45 ecosystem bridges) |
+| **AI/ML** | ML, NLP, Vision, Embedding, RL, Diffusion, RAG, Train, TRT, LLM, GAN, AutoML | Ternary inference, diffusion models, RAG, LLM engine (GGUF Q4_K/Q6_K, wgpu GPU inference, dual-model speculative decoding, 45 ecosystem bridges), QAT training (GPU backward, ZeRO-Offload, Llama-3 70B) |
 | **Networking & Streaming** | Streaming-Protocol, Edge, CDN, DNS, API, Cloud-Gateway, VNet, MQTT, ServiceMesh, Proxy, WebSocket, gRPC, HTTP | Zero-copy frame transport, SDN overlay, service mesh, reverse proxy |
 | **Data & Storage** | DB, Cache, Search, Text, Codec, Zip, History, VectorDB, Text-Compression, ETL, StreamProc, Lakehouse, CDC, FileSystem, ObjectStore | Lock-free caching, change data capture, columnar lakehouse, object storage |
 | **Security & Finance** | Crypto, Auth, AuthZ, PKI, SIEM, SecretVault, Ledger, Risk, FIX, Settlement, Quant, MarketData, WAF, DLP, Audit | Policy-based authz, certificate lifecycle, stochastic pricing, WAF rules |

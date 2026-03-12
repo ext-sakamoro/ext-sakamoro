@@ -40,7 +40,7 @@ All 185 crates pass **ALICE-KARIKARI 100/100** quality standard:
 | **Spatial** | SLAM, Medical, Drone, Render, Navigation | SLAM mapping, medical imaging, UAV control, ray tracing, path planning |
 | **Optimization** | Recommend, Logistics, Matchmaking, Agri | Recommendation, supply chain, ELO/Glicko-2, crop modeling |
 | **Real-time** | Chat, LoadBalancer, VideoAnalytics | Chat protocol, L4/L7 load balancing, video tracking |
-| **Compiler/Language** | Compiler, VM, Parser | DSL compiler, bytecode VM, parser combinators |
+| **Compiler/Language** | Compiler, VM, Parser, LOL | DSL compiler, bytecode VM, parser combinators, SDF law-oriented DSL |
 | **Business** | CRM, ERP, HRM, LMS | Customer management, inventory/MRP, payroll, learning |
 
 All crates are connected through [ALICE-Eco-System](https://github.com/ext-sakamoro/ALICE-Eco-System) — 1,250 bridges across 22 pipeline paths.

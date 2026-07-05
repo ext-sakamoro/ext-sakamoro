@@ -18,7 +18,7 @@ ALICE is a modular ecosystem of **514 Rust crates** and **299 SaaS products** th
 | clippy (pedantic+nursery) | **0 warnings** across all crates |
 | LLM | ALICE-Cognitive-9B-Ternary (Qwen3.5-9B, 1.58-bit QAT, ~3.6GB) |
 | Recent focus | GNSS (QZSS L6/L1S, RTCM3, cycle-slip, spoofing) + Ed25519 audit trail (34+ crates) |
-| 2026-07 D-split | **112 monolithic crates modularized** (F 65 + G 25 + H 22, 2026-07-05〜06, +14,864 tests, 33-pattern skill library, karikari-review §10 全 crate pass, 全 CI green) |
+| 2026-07 D-split | **112 monolithic crates modularized** — **0 monoliths remaining** (F 65 + G 25 + H 22, 2026-07-05〜06, 14,864 tests, 33-pattern skill library, karikari-review §10 全 crate pass, 全 CI green, **193/198 (97.5%) modularized+**) |
 
 ### The Ecosystem
 
